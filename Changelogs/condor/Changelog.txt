@@ -1,0 +1,218 @@
+====================
+     06-27-2016
+====================
+
+   * build/
+4475702  Remove generic builds. We never build them anyway.  [Adarsh-Mr]
+920e439   Use Google Nexus Audio Files [1/2]  [Adarsh-Mr]
+   * frameworks/base/
+5912cc3  Revert "Frameworks: port SlimSeekBarPreference to SlimLP"  [rohitporoli]
+39a904c  Revert "SlimSeekBarPreference: clean up a wee bit"  [rohitporoli]
+2f5c6b5  Revert "slimseekbarpreference: set monitorbox text as string"  [rohitporoli]
+596a448  Revert "SlimSeekbar: Update api so no dupes"  [rohitporoli]
+32b255e  Getting Wings ready  [Adarsh-Mr]
+49c71c1  BootMsG cardinal-fy 1/2  [Adarsh-Mr]
+c33745f  Revert "drop some tiles from default"  [Adarsh-Mr]
+ae571d5  SlimSeekbar: Update api so no dupes  [Adarsh-Mr]
+f7f813a  slimseekbarpreference: set monitorbox text as string  [Adarsh-Mr]
+a196ded  SlimSeekBarPreference: clean up a wee bit  [Adarsh-Mr]
+dc522f0  Frameworks: port SlimSeekBarPreference to SlimLP  [Adarsh-Mr]
+   * packages/apps/Settings/
+6d8a52a  Add tile to launch BitSyko Layers App from Settings  [Adarsh-Mr]
+00beb5c  Merge branch 'exp3' of https://github.com/Cardinal-AOSP/packages_apps_Settings into exp3  [Adarsh-Mr]
+3f768ed  remove screenoff gestures preference and pie control  [Adarsh-Mr]
+aece6ca  Revert "BatteryLight: Reset all settings back to default." Fixes Sound and Notification FC. This reverts commit 994a1f4d1759022da5328cfe1c4f9c720629b0b2.  [rohitporoli]
+eccd4b8  settingsactivity: clean up gestures leftover  [Adarsh-Mr]
+d33a200  Add isPackageInstalled boolean  [Adarsh-Mr]
+0153dac  Hide gestures if not supported  [Adarsh-Mr]
+eaa05e1  fix build  [Adarsh-Mr]
+0f1078c  Only use device custom icon if it provides one  [Adarsh-Mr]
+d8c7608  move all nav settings to the wing!  [Adarsh-Mr]
+b46e824  fix arrays for gestures  [Adarsh-Mr]
+a92d902  Revert "Settings: Hide the buttons category if no usage found"  [Adarsh-Mr]
+8f6e26a  Settings: Add double tap to sleep gesture Enable statusbar double tap gesture on to put device to sleep  [Adarsh-Mr]
+ddb822b  strings: app switch = menu  [Adarsh-Mr]
+0a2aef7  Volume Rocker Wake [2/2]  [Adarsh-Mr]
+9f29e05  Setting to Disable Navigation Keys completely (2/2)  [Adarsh-Mr]
+30d4bd6  slim_arrays: add torch to screen off gestures  [Adarsh-Mr]
+982ae88  Settings: Allow disabling hw keys and lights (2/2)  [Adarsh-Mr]
+1afe685  Settings:  allow device trees to invoke custom display settings  [Adarsh-Mr]
+f924ab0  add now on tap to hwkeys  [Adarsh-Mr]
+053572b  hw keys: add a swap keys switch  [Adarsh-Mr]
+3700383  Forward port button/keyboard backlight options  [Adarsh-Mr]
+14d293a  Add Utility function  [Adarsh-Mr]
+93b115f   add global & securesettingsswitchpreference  [Adarsh-Mr]
+cd24741  Add back a helper pref that holds a system setting.  [Adarsh-Mr]
+2839c0d  Ported up [2/2] Settings: Slims Hardware Key Rebinding  [Adarsh-Mr]
+029ca83  Settings: Slims navbar customizations  [Adarsh-Mr]
+   * vendor/cardinal/
+2bc787f  modify zip name  [Adarsh-Mr]
+d25761d  gear up for 2.3 STABLE YEYY  [Adarsh-Mr]
+
+====================
+     06-26-2016
+====================
+
+   * frameworks/base/
+4b396b9  fix build  [Adarsh-Mr]
+def2bbc  base: Fix compile error  [Adarsh-Mr]
+d65c94e  Remove Qualcomm BoostFramework  [Adarsh-Mr]
+d9ef7a7  Buttons: Allow setting default long-press app switch behavior  [Adarsh-Mr]
+692a065  hwkeys switch: add APP_SWITCH to disabled keys  [Adarsh-Mr]
+c0ea1c0  Volume Rocker Wake [1/2] Change-Id: Ia32e77b4737efd5816da1b4cfb74138fc357a46b  [Adarsh-Mr]
+a765781  Setting to Disable Navigation Keys completely (1/2)  [Adarsh-Mr]
+8eab310  WakeKeys: add missing home button to wake enabled checks in PhoneWindowManager  [Adarsh-Mr]
+d4d4a43  If a wake key is disabled by the user, do not wake from doze.  [Adarsh-Mr]
+632ecf5  hwkeys:update for changed settings commit  [Adarsh-Mr]
+b4baf5d  base: Add hw button lights controls (1/2)  [Adarsh-Mr]
+c867553  Base: Add option to disable hw keys (1/2)  [Adarsh-Mr]
+8e1e327  Fix missing bool from a bad navbar customization squash Yup. Griff fucked up. No wonder the navbar customization commit hasn't been merged for slim. Dumb shit like this happened.  [Adarsh-Mr]
+d9290b8  input: Add option to swap app switch and back buttons  [Adarsh-Mr]
+723a542  Cleanup button wake settings (2/2)  [Adarsh-Mr]
+ba2de7d  fw/base: allow home button to wake device [1/2]  [Adarsh-Mr]
+4a1c898  Add PowerManager integration for button and keyboard backlight.  [Adarsh-Mr]
+e9f9e61  keyboard: re-add code to detect lid state and handle lights  [Adarsh-Mr]
+c5d1b6d  utils: Introduce ScreenType class  [Adarsh-Mr]
+efb2346  Ported up [1/2] Slims Hardware Key Rebinding  [Adarsh-Mr]
+439e210  fb: Slims navbar customizations  [Adarsh-Mr]
+6209ee2  Revert "SystemUI: make long pressing recent switch to last app"  [Adarsh-Mr]
+41597af  Revert "make switch to last app animation snappier"  [Adarsh-Mr]
+3d3828a  Revert "Hardware key custom rebinding (1/2)"  [Adarsh-Mr]
+4f5cfc6  Revert "fw/base: allow home button to wake device [1/2]"  [Adarsh-Mr]
+e8ab2fa  Revert "Cleanup button wake settings (2/2)"  [Adarsh-Mr]
+4121784  Revert "If a wake key is disabled by the user, do not wake from doze."  [Adarsh-Mr]
+765f1fc  Revert "Buttons: Allow setting default long-press app switch behavior"  [Adarsh-Mr]
+5aa55bb  Revert "Android Policy: handle volume key event as wake key when preference is set"  [Adarsh-Mr]
+2e12dfd  Revert "Runtime toggle of navbar"  [Adarsh-Mr]
+c2055a5  Revert "frameworks/base: Don't report existing menu key if it was remapped."  [Adarsh-Mr]
+90f9652  Revert "frameworks/base: Fix key remapping after toggling navigationbar."  [Adarsh-Mr]
+ee8257b  Revert "Add PowerManager integration for button backlight."  [Adarsh-Mr]
+   * frameworks/native/
+59158a7  inputflinger: Add option to swap app switch and back buttons  [Adarsh-Mr]
+   * hardware/libhardware/
+62de148  lights: Adding keypad alt/shift LED light IDs  [Adarsh-Mr]
+   * manifest/
+f1c8a59  track messaging from cm back, track own libhardware  [Adarsh-Mr]
+   * packages/apps/Settings/
+93580b7  Revert "Settings : Hardware key rebinding (2/2)"  [Adarsh-Mr]
+c02813f  Revert "bugfix: there are other options after in-app search"  [Adarsh-Mr]
+6fdd0a9  Revert "Forward port button backlight options"  [Adarsh-Mr]
+
+====================
+     06-25-2016
+====================
+
+   * frameworks/base/
+2347b84  Move original "SystemUI Tuner" options under System UI settings (1/2)  [Adarsh-Mr]
+   * packages/apps/Settings/
+beb4e75  Revert "Display: Volume Rocker Wake (2/2)"  [Adarsh-Mr]
+25197a8  Move original "SystemUI Tuner" options under System UI settings (2/2)  [Adarsh-Mr]
+b06b537  Cleanup settings  [Adarsh-Mr]
+f8a7921  fix display fc  [Adarsh-Mr]
+
+====================
+     06-24-2016
+====================
+
+   * build/
+d4f32ec  Ditch dpi change at build time  [Adarsh-Mr]
+   * frameworks/base/
+215e9bf  policy: Show a simple dialog about optimizing apps  [Adarsh-Mr]
+ccbf9a5  Enhance dexopt with random colours Edited by @zephiK * adapted to work for android 6.0 (marshmallow)  [Adarsh-Mr]
+5cbf930  Bootmsg: The app name is now displayed in bold text.  [Adarsh-Mr]
+d796db2  Show Optimizing app dialog on first boot The boot dialog is currently hidden on first boot but the bootanimation can take a very long time to go away. Show the boot dialog so we know whats happening.  [Adarsh-Mr]
+6fb379a  BootMessage: Show each app name being optimized during boot Below the message that says "Optimizing app x of y" the name of the current app is displayed.  [Adarsh-Mr]
+ba3fcc3  add back missing import  [Adarsh-Mr]
+e4c6738  Revert "BootMessage: Show each app name being optimized during boot"  [Adarsh-Mr]
+5b1c0b7  Revert "Show Optimizing app dialog on first boot"  [Adarsh-Mr]
+d9e83fa  Revert "Bootmsg: The app name is now displayed in bold text."  [Adarsh-Mr]
+a295ee9  Revert "Enhance dexopt with random colours"  [Adarsh-Mr]
+47891b0  Revert "BootMsg: Add cardinal logo to boot message, remove spinner"  [Adarsh-Mr]
+dc5e8b9  Fw_base - let InCallUI handle proximity sensor for incoming calls [1/2]  [Adarsh-Mr]
+e23ea49  Battery Style and percentage (Squashed) (1/2)  [Adarsh-Mr]
+af4c815  Revert "Move tuner enable point to QS"  [Adarsh-Mr]
+a022089  Revert "SystemUI: Add support for charging animation"  [Adarsh-Mr]
+cc2396e  Clock & Date (Squashed) (1/2)  [Adarsh-Mr]
+5885969  Framework: Configurable 0, 90, 180 and 270 degree rotation (1/2)  [Adarsh-Mr]
+   * frameworks/native/
+c1b76bb  Tune dex2oat  [Adarsh-Mr]
+8dcfc79  Tuning compiler thread count for optimal application install times  [Adarsh-Mr]
+   * manifest/
+54c6285  silly adarsh? xD  [GitHub]
+1cceeb3  silly me?  [Adarsh-Mr]
+a397e36  track own fw native and messaging  [Adarsh-Mr]
+   * packages/apps/InCallUI/
+5334570  InCallUI: let InCallUI handle proximity sensor for incoming calls  [Adarsh-Mr]
+   * packages/apps/Settings/
+35311a2  underp  [Adarsh-Mr]
+93a07ca  move back  day/night theme to DisplaySettings * Also reorganize rotation settings,  [Adarsh-Mr]
+8693d1f  move display, notification, buttons tile to wing!  [Adarsh-Mr]
+e7b225a  Improve about cardinal  [Adarsh-Mr]
+0867038   Make easy to add a checkbox preference  [Adarsh-Mr]
+a653d2c   Clock & Date (Squashed) (2/2)  [Adarsh-Mr]
+5323d3a  Battery Style and percentage (Squashed) (2/2)  [Adarsh-Mr]
+a3e0e14  Initiate TheWing!  [Adarsh-Mr]
+f66f919  Settings: Configurable 0, 90, 180 and 270 degree rotation (2/2)  [Adarsh-Mr]
+994a1f4  BatteryLight: Reset all settings back to default.  [Adarsh-Mr]
+31ad04d  UBERTC: Remove flags & info if not present  [Adarsh-Mr]
+   * vendor/cardinal/
+4f93f15  dont add time im output zip  [Adarsh-Mr]
+
+====================
+     06-23-2016
+====================
+
+   * device/oneplus/onyx/
+3a7ede1  onyx: revamp model number to "X"  [rohitporoli]
+636e13d  Revert "onyx: remove uber customizations"  [rohitporoli]
+0e86ea1  Revert "onyx: remove geofencProvider overlay"  [rohitporoli]
+23b86da  onyx: remove geofencProvider overlay  [rohitporoli]
+c315d5e  Cardinal Bring up [Rebased]  [rohitporoli]
+ee31e2f  onyx: remove hardware wake keys  [rohitporoli]
+   * device/qcom/sepolicy/
+2805e63  file_contexts: Adding context to block devices  [TheStrix]
+   * frameworks/base/
+37d72a3  fix metrics density comparisons  [Adarsh-Mr]
+679a76f  DisplayMetrics: set noncompat DPI as well  [Adarsh-Mr]
+b97cc86  unbreak density scaling  [Adarsh-Mr]
+58a9c9e  fix CTS DisplayTest.testGetMetrics()  [Adarsh-Mr]
+ca17c8d  base: Allow custom density setting (1/2)  [Adarsh-Mr]
+a28ad00  frameworks/base: Fix key remapping after toggling navigationbar.  [Adarsh-Mr]
+4465e9b  frameworks/base: Don't report existing menu key if it was remapped.  [Adarsh-Mr]
+f30858f  Runtime toggle of navbar  [Adarsh-Mr]
+cbbf073  Android Policy: handle volume key event as wake key when preference is set  [Adarsh-Mr]
+eb11f32  Buttons: Allow setting default long-press app switch behavior  [Adarsh-Mr]
+32c5379  If a wake key is disabled by the user, do not wake from doze.  [Adarsh-Mr]
+4834285  Cleanup button wake settings (2/2)  [Adarsh-Mr]
+d433579  fw/base: allow home button to wake device [1/2]  [Adarsh-Mr]
+58e6ad1  Revert "Marshmallow: volume rocker wake (1/2)"  [Adarsh-Mr]
+38a966c  Revert "Marshmallow: If a wake key is disabled by the user, do not wake from doze."  [Adarsh-Mr]
+87c4836  Revert "volume rocker wake: add volume keys to isWakeKey KeyEvents"  [Adarsh-Mr]
+86a2087  core: Don't enable qualcomm location overlay by default  [Adarsh-Mr]
+e488967  geofence: Low power geofence HW implementation  [Adarsh-Mr]
+d4a6206  drop some tiles from default  [Adarsh-Mr]
+   * packages/apps/Settings/
+76b1fb5  fix dupe  [Adarsh-Mr]
+5133f68  fix ota fc again  [Adarsh-Mr]
+10f66cd  Settings: Add warning for lcd density  [Adarsh-Mr]
+f8f15dc  Hide LCD density preference from secondary users  [Adarsh-Mr]
+2ddd22f  Settings: use WindowManager to set custom DPI  [Adarsh-Mr]
+19b8e87  Settings: Add LCD density setting (2/2)  [Adarsh-Mr]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel/
+e67e4af  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel/
+0436ebc  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel/
+b13f835  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel/
+f7d3bcb  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber/
+6078fdb  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber/
+6ebb3b7  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber/
+c25f735  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber/
+f9a96b3  Initial commit  [DespairFactor]
+
+
