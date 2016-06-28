@@ -1,4 +1,60 @@
 ====================
+     06-28-2016
+====================
+   * OTA/
+5288ed2  update condor and onyx  [Adarsh-Mr]
+   * frameworks/base/
+9afe066  fix build  [Adarsh-Mr]
+5912cc3  Revert "Frameworks: port SlimSeekBarPreference to SlimLP"  [rohitporoli]
+39a904c  Revert "SlimSeekBarPreference: clean up a wee bit"  [rohitporoli]
+2f5c6b5  Revert "slimseekbarpreference: set monitorbox text as string"  [rohitporoli]
+596a448  Revert "SlimSeekbar: Update api so no dupes"  [rohitporoli]
+32b255e  Getting Wings ready  [Adarsh-Mr]
+49c71c1  BootMsG cardinal-fy 1/2  [Adarsh-Mr]
+c33745f  Revert "drop some tiles from default"  [Adarsh-Mr]
+ae571d5  SlimSeekbar: Update api so no dupes  [Adarsh-Mr]
+f7f813a  slimseekbarpreference: set monitorbox text as string  [Adarsh-Mr]
+a196ded  SlimSeekBarPreference: clean up a wee bit  [Adarsh-Mr]
+dc522f0  Frameworks: port SlimSeekBarPreference to SlimLP  [Adarsh-Mr]
+   * packages/apps/Settings/
+f82d88b  Revert "Remove lights settings unless intrusive LED bools are true"  [Adarsh-Mr]
+32c77be  Revert "Light settings: reduce tone if preview image color is very light"  [Adarsh-Mr]
+6d8a52a  Add tile to launch BitSyko Layers App from Settings  [Adarsh-Mr]
+00beb5c  Merge branch 'exp3' of https://github.com/Cardinal-AOSP/packages_apps_Settings into exp3  [Adarsh-Mr]
+3f768ed  remove screenoff gestures preference and pie control  [Adarsh-Mr]
+aece6ca  Revert "BatteryLight: Reset all settings back to default." Fixes Sound and Notification FC. This reverts commit 994a1f4d1759022da5328cfe1c4f9c720629b0b2.  [rohitporoli]
+eccd4b8  settingsactivity: clean up gestures leftover  [Adarsh-Mr]
+d33a200  Add isPackageInstalled boolean  [Adarsh-Mr]
+0153dac  Hide gestures if not supported  [Adarsh-Mr]
+eaa05e1  fix build  [Adarsh-Mr]
+0f1078c  Only use device custom icon if it provides one  [Adarsh-Mr]
+d8c7608  move all nav settings to the wing!  [Adarsh-Mr]
+b46e824  fix arrays for gestures  [Adarsh-Mr]
+a92d902  Revert "Settings: Hide the buttons category if no usage found"  [Adarsh-Mr]
+8f6e26a  Settings: Add double tap to sleep gesture Enable statusbar double tap gesture on to put device to sleep  [Adarsh-Mr]
+ddb822b  strings: app switch = menu  [Adarsh-Mr]
+0a2aef7  Volume Rocker Wake [2/2]  [Adarsh-Mr]
+9f29e05  Setting to Disable Navigation Keys completely (2/2)  [Adarsh-Mr]
+30d4bd6  slim_arrays: add torch to screen off gestures  [Adarsh-Mr]
+982ae88  Settings: Allow disabling hw keys and lights (2/2)  [Adarsh-Mr]
+1afe685  Settings:  allow device trees to invoke custom display settings  [Adarsh-Mr]
+f924ab0  add now on tap to hwkeys  [Adarsh-Mr]
+053572b  hw keys: add a swap keys switch  [Adarsh-Mr]
+3700383  Forward port button/keyboard backlight options  [Adarsh-Mr]
+14d293a  Add Utility function  [Adarsh-Mr]
+93b115f   add global & securesettingsswitchpreference  [Adarsh-Mr]
+cd24741  Add back a helper pref that holds a system setting.  [Adarsh-Mr]
+2839c0d  Ported up [2/2] Settings: Slims Hardware Key Rebinding  [Adarsh-Mr]
+029ca83  Settings: Slims navbar customizations  [Adarsh-Mr]
+   * packages/services/Telephony/
+aac0f49  Revert "Telephony: Improve NetworkSelection"  [rohitporoli]
+fafd8cd  Revert "Telephony: Fix translatability of network modes"  [rohitporoli]
+   * vendor/cardinal/
+2bc787f  modify zip name  [Adarsh-Mr]
+d25761d  gear up for 2.3 STABLE YEYY  [Adarsh-Mr]
+
+
+====================
      06-27-2016
 ====================
 
